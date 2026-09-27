@@ -1,0 +1,38 @@
+/* CheckoutModal — собственные стили. Базовые .modal-overlay / .modal /
+   .modal__form / .modal__list / .modal__total — в src/styles/global.css */
+
+.modal h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.modal__success {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.modal__success h3 {
+  color: #27ae60;
+}
+
+.modal__success p {
+  margin: 12px 0 20px;
+  color: var(--muted);
+}
+
+.modal__success button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  transition: opacity .2s;
+}
+
+.modal__success button:hover {
+  opacity: 0.85;
+}
